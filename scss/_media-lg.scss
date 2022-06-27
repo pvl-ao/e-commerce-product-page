@@ -1,0 +1,18 @@
+// 992px
+@media (min-width: 62rem) {
+  :root {
+    --product-slides-margin: 0 0 0 0;
+    --carousel-width: 27.875rem;
+    --product-information-padding: 0 10% 0 4.37%;
+    --product-information-margin: 0 0 0 0;
+    --carousel-margin: 0 8.75% 0 20%;
+    --navbar-padding: 1.975% 7% 1.975% 7%;
+    --cart--position-right: 3%;
+    --user-avatar-width: 3.125rem;
+    --user-avatar-height: 3.125rem;
+    --product-information-width: 100%;
+    --logo-margin: 0 2.625rem 0 0;
+    --nav-link-padding: 0.75rem 0.8125rem 0.75rem 0.8125rem;
+    --cart-icon-position-right: 6rem;
+  }
+}
