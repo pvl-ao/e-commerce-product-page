@@ -7,6 +7,7 @@
   --amount-btn-height: 3.5rem;
   --add-to-cart-btn-width: 35.9375rem;
   --add-to-cart-btn-height: 3.5rem;
+  --purchase-btns-direction: column;
 }
 
 /* ----- Product Information ----- */
@@ -85,7 +86,7 @@
 /* ----- Buy Buttons ----- */
 .purchase-btns {
   display: flex;
-  flex-direction: column;
+  flex-direction: var(--purchase-btns-direction);
   justify-content: center;
   align-items: center;
   gap: 1rem;
