@@ -14,6 +14,10 @@
   padding: var(--navbar-padding);
 }
 
+.bg-light {
+  background-color: $white !important;
+}
+
 .offcanvas.offcanvas-start {
   width: 15.625rem;
 }

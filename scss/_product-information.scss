@@ -8,6 +8,9 @@
   --add-to-cart-btn-width: 35.9375rem;
   --add-to-cart-btn-height: 3.5rem;
   --purchase-btns-direction: column;
+  --product-collection-font-size: 1.75rem;
+  --product-name-font-size: 1.75rem;
+  --product-manufacturer-font-size: 0.875rem;
 }
 
 /* ----- Product Information ----- */
@@ -22,20 +25,20 @@
 }
 
 .product-manufacturer {
-  font-size: 0.875rem;
+  font-size: var(--product-manufacturer-font-size);
   font-weight: 700;
   color: $orange;
 }
 
 .product-collection {
   font-weight: 700;
-  font-size: 1.75rem;
+  font-size: var(--product-collection-font-size);
   margin-top: 0.625rem;
 }
 
 .product-name {
   font-weight: 700;
-  font-size: 1.75rem;
+  font-size: var(--product-name-font-size);
   margin-bottom: 1rem;
 }
 
