@@ -32,5 +32,13 @@ body {
 /* ----- Carousel ----- */
 @import 'carousel';
 
+/* ----- Cart ----- */
+@import 'cart';
+
 /* ----- Product Information ----- */
 @import 'product-information';
+
+/* ----- Media Queries ----- */
+@import 'media-lg';
+@import 'media-xl';
+@import 'media-xxl';
