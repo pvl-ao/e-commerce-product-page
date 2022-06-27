@@ -4,6 +4,7 @@
   --carousel-width: 35.9375rem;
   --carousel-margin: 0 0 0 0;
   --thumbnail-img-width: 5rem;
+  --carousel-img-border-radius: 0;
 }
 
 /* ----- Carousel ----- */
@@ -16,6 +17,12 @@
 .carousel {
   max-width: var(--carousel-width);
   margin: var(--carousel-margin);
+}
+
+.carousel-item {
+  img {
+    border-radius: var(--carousel-img-border-radius);
+  }
 }
 
 .carousel-control-prev,
