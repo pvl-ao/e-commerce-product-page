@@ -1,0 +1,129 @@
+:root {
+  --product-page-margin: 4.25rem auto 0 auto;
+  --product-information-width: 35.9375rem;
+  --product-information-padding: 0 1.5rem 0 1.5rem;
+  --product-information-margin: 1.375rem auto 3rem auto;
+  --amount-btn-width: 35.9375rem;
+  --amount-btn-height: 3.5rem;
+  --add-to-cart-btn-width: 35.9375rem;
+  --add-to-cart-btn-height: 3.5rem;
+}
+
+/* ----- Product Information ----- */
+.product-page {
+  margin: var(--product-page-margin);
+}
+
+.product-information {
+  max-width: var(--product-information-width);
+  padding: var(--product-information-padding);
+  margin: var(--product-information-margin);
+}
+
+.product-manufacturer {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: $orange;
+}
+
+.product-collection {
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin-top: 0.625rem;
+}
+
+.product-name {
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.product-description {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.order-details {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  h3 {
+    font-size: 1rem;
+  }
+}
+
+/* ----- Price ----- */
+.price {
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.new-price {
+  font-size: 1.875rem;
+}
+
+.old-price {
+  position: absolute;
+  right: 1.5rem;
+}
+
+.discount {
+  font-size: 1rem;
+  background-color: $pale-orange;
+  color: $orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.1875rem;
+  height: 1.6875rem;
+  text-align: center;
+  border-radius: 0.3125rem;
+  margin-left: 1rem;
+}
+
+/* ----- Buy Buttons ----- */
+.purchase-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.amount-btn {
+  width: 100%;
+  max-width: var(--amount-btn-width);
+  height: var(--amount-btn-height);
+  padding: 0;
+  border-radius: 0.625rem;
+  border: none;
+  &:not(:disabled) {
+    cursor: default;
+  }
+  img {
+    cursor: pointer;
+  }
+}
+
+.add-to-cart-btn {
+  border: none;
+  width: 100%;
+  max-width: var(--add-to-cart-btn-width);
+  height: var(--add-to-cart-btn-height);
+  background-color: $orange;
+  color: #fff;
+  border-radius: 0.625rem;
+  img {
+    margin-right: 1rem;
+  }
+}
+
+.minus-area,
+.plus-area {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: inline-block;
+  border-radius: 0.625rem;
+  cursor: pointer;
+}
