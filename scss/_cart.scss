@@ -1,0 +1,76 @@
+:root {
+  --cart-position-right: 0;
+  --product-padding: 0 1.5rem 0 1.5rem;
+  --cart-heading-padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+/* ----- Cart ----- */
+.cart {
+  width: 100%;
+  max-width: 22.5rem;
+  height: 16.25rem;
+  background-color: #fff;
+  position: absolute;
+  top: 1rem;
+  right: var(--cart-position-right);
+  margin-top: 5rem;
+  z-index: 100;
+  border-radius: 0.625rem;
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2),
+    0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+  hr {
+    margin: 0;
+  }
+}
+
+.empty-cart {
+  margin-top: 4.625rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.cart-heading {
+  padding: var(--cart-heading-padding);
+  margin: 0;
+}
+
+.product {
+  padding: var(--product-padding);
+  margin-top: 1rem;
+}
+
+.product-img {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 0.3125rem;
+}
+
+.delete-icon {
+  cursor: pointer;
+  width: 0.875rem;
+  height: 1rem;
+}
+
+.item-price {
+  margin-right: 1rem;
+}
+
+.items {
+  margin-left: 1rem;
+}
+
+.checkout-price {
+  margin-left: 1rem;
+  font-weight: 700;
+}
+
+.checkout-btn {
+  background-color: $orange;
+  width: 19.5rem;
+  height: 3.5rem;
+  border-radius: 0.625rem;
+  color: #fff;
+  border: none;
+  margin: 1rem auto 0 auto;
+  display: block;
+}
